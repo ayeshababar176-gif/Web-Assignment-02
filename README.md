@@ -1,7 +1,7 @@
 # Personal Portfolio — Web Technologies Assignment #2
 
 **Student:** Ayesha Babar  
-**Roll Number:** 272 (replace if needed)  
+**Roll Number:** 272 
 **Course:** Web Technologies — BSCS, Semester 5
 
 ## Project files
@@ -13,7 +13,7 @@
 - `media/introduction.mp3` — Add your own audio file here.
 - `media/project-demo.mp4` — Add your own video file here.
 
-## 200–300-word explanation
+## Explanation
 
 CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation of HTML documents. It helps developers set colors, fonts, backgrounds, borders, spacing, and page layouts. Separating presentation from content can make a website easier to maintain and gives multiple pages a consistent appearance.
 
