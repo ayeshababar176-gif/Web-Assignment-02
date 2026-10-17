@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesha Babar | Project Inquiry</title>
+    <!-- External CSS stylesheet required for Page 3 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <h1>Project Inquiry</h1>
+        <p>Tell me a little about your website project.</p>
+    </header>
+
+    <!-- Navigation links to all three pages -->
+    <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="information.html">Projects &; Services</a>
+        <a href="registration.html">Project Inquiry</a>
+    </nav>
+
+    <main class="page-content">
+        <p class="notice">Complete this sample form to describe the project you would like to discuss. This front-end form does not send data to a server.</p>
+
+        <!-- Form controls grouped with fieldset and legend -->
+        <form id="registration-form" action="#" method="get">
+            <fieldset>
+                <legend>Account Details</legend>
+
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+                <label for="password">Create Password</label>
+                <input type="password" id="password" name="password" minlength="8" placeholder="At least 8 characters" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="13" max="100" placeholder="Enter your age">
+            </fieldset>
+
+            <fieldset>
+                <legend>Project Preferences</legend>
+
+                <label for="preferred-date">Preferred Date</label>
+                <input type="date" id="preferred-date" name="preferredDate">
+
+                <p class="field-heading">What type of project do you need?</p>
+                <div class="choice-row">
+                    <label><input type="radio" name="projectType" value="portfolio" required> Portfolio website</label>
+                    <label><input type="radio" name="projectType" value="business"> Business website</label>
+                    <label><input type="radio" name="projectType" value="other"> Other</label>
+                </div>
+
+                <p class="field-heading">Which services interest you? (Choose any)</p>
+                <div class="choice-row">
+                    <label><input type="checkbox" name="services" value="design"> Page design</label>
+                    <label><input type="checkbox" name="services" value="html-css"> HTML and CSS</label>
+                    <label><input type="checkbox" name="services" value="updates"> Website updates</label>
+                </div>
+
+                <label for="budget">Preferred budget range</label>
+                <select id="budget" name="budget" required>
+                    <option value="" selected disabled>-- Select a budget range --</option>
+                    <option value="student">Student / practice project</option>
+                    <option value="basic">Basic website</option>
+                    <option value="discuss">Discuss later</option>
+                </select>
+
+                <label for="comments">Additional Information</label>
+                <textarea id="comments" name="comments" maxlength="500" rows="5" placeholder="Describe your requirements (maximum 500 characters)"></textarea>
+            </fieldset>
+
+            <div class="button-row">
+                <button type="submit">Submit Inquiry</button>
+                <button type="reset" class="reset-button">Reset Form</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>Contact: ayesha@example.com</p>
+        <p>&copy; 2026 Ayesha Babar. Educational portfolio sample.</p>
+    </footer>
+</body>
+</html>

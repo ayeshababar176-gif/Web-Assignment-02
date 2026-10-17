@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayesha Babar | Projects and Services</title>
+    <style>
+        /* Element selector: styles all paragraphs visibly */
+        p {
+            color: #382d49;
+            line-height: 1.7;
+        }
+
+        /* Class selector: styles the announcement box */
+        .notice {
+            background-color: #fff4ce;
+            border-left: 5px solid #d49a16;
+            padding: 14px;
+            margin: 18px 0;
+        }
+
+        /* ID selector: styles the project article */
+        #portfolio-project {
+            padding: 22px;
+            background-color: #ffffff;
+            border: 1px solid #d9cbed;
+            border-radius: 12px;
+        }
+
+        /* Attribute selector: styles email links */
+        a[href^="mailto:"] {
+            color: #6b3fa0;
+            font-weight: bold;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f3ff;
+            color: #29213b;
+        }
+
+        header {
+            background-color: #5b3f8c;
+            color: white;
+            text-align: center;
+            padding: 26px 16px;
+        }
+
+        nav {
+            background-color: #e6dcf7;
+            text-align: center;
+            padding: 14px;
+        }
+
+        nav a {
+            color: #3f2868;
+            margin: 0 12px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 24px auto;
+            padding: 0 18px;
+        }
+
+        h2, h3 {
+            color: #5b3f8c;
+        }
+
+        aside {
+            background-color: #eee6fa;
+            padding: 16px;
+            margin-top: 18px;
+            border-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0 28px;
+            background-color: white;
+        }
+
+        caption {
+            font-weight: bold;
+            color: #4c3474;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid #8875a8;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #d9c8f0;
+        }
+
+        footer {
+            background-color: #5b3f8c;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        footer p {
+            color: white;
+            margin: 0;
+        }
+
+        audio, video {
+            display: block;
+            width: 100%;
+            max-width: 560px;
+            margin: 12px 0 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Ayesha Babar — Projects and Services</h1>
+        <p style="color:white;">A sample overview of my learning projects</p>
+    </header>
+
+    <!-- Navigation links -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="information.html">Projects &amp; Services</a>
+        <a href="registration.html">Project Inquiry</a>
+    </nav>
+
+    <main>
+        <!-- Self-contained project description -->
+        <article id="portfolio-project">
+            <h2>Featured Project: Personal Portfolio Website</h2>
+            <p>This sample project is a simple portfolio website built with HTML and CSS. It introduces the owner, presents learning areas, and provides a form for visitors to send a project inquiry. Semantic elements make the page structure easier to understand.</p>
+            <h3>Sample Services</h3>
+            <ul>
+                <li>Basic multi-page website structure</li>
+                <li>Simple page styling and layout</li>
+                <li>Basic HTML form design</li>
+                <li>Beginner-friendly website updates</li>
+            </ul>
+        </article>
+
+        <!-- Related announcement -->
+        <aside class="notice">
+            <h3>Portfolio Notice</h3>
+            <p>This is an educational sample. Replace the sample contact details and project information with your own before publishing.</p>
+        </aside>
+
+        <!-- Table with caption, three columns, header cells, and four data rows -->
+        <section>
+            <h2>My Learning Plan</h2>
+            <table>
+                <caption>Sample Courses and Progress</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Learning Area</th>
+                        <th scope="col">Main Topics</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Semantic elements, links, images</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Colors, spacing, selectors</td>
+                        <td>Learning</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Variables, conditions, functions</td>
+                        <td>Practising</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>Queries and database basics</td>
+                        <td>Practising</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Audio with controls and fallback text; add your own media file to media/ -->
+        <section>
+            <h2>Audio Introduction</h2>
+            <p>Optional audio introduction. Add a file named introduction.mp3 inside the media folder.</p>
+            <audio controls>
+                <source src="media/introduction.mp3" type="audio/mpeg">
+                Your browser does not support the audio element. Please use a browser that supports HTML audio.
+            </audio>
+        </section>
+
+        <!-- Video with controls and fallback text; add your own media file to media/ -->
+        <section>
+            <h2>Project Video</h2>
+            <p>Optional project video. Add a file named project-demo.mp4 inside the media folder.</p>
+            <video controls>
+                <source src="media/project-demo.mp4" type="video/mp4">
+                Your browser does not support the video element. Please use a browser that supports HTML video.
+            </video>
+        </section>
+
+        <p>Contact: <a href="mailto:ayesha@example.com">ayesha@example.com</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ayesha Babar. Educational portfolio sample.</p>
+    </footer>
+</body>
+</html>
